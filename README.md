@@ -37,17 +37,17 @@ TELEGRAM_ALLOWED_ID=your_telegram_user_id_here
 
 ### Usage
 
-1. Ensure your `.bat` files are in the same directory as the script. These files should be named in a way that describes their function, e.g., `TvOnly_4k.bat`,. Start the bot by running the script:
+1. Start the bot by running the script:
 
 ```
 python telegram_display_bot.py
 ```
 
-3. Interact with the bot via the supported commands in a Telegram chat.
+2. Interact with the bot via the supported commands in a Telegram chat.
 
 ## Security
 
-This bot is configured to respond only to commands from a specified Telegram user ID, set through the environment variable `TELEGRAM_ALLOWED_ID`. Ensure this ID and access to your Telegram account is kept secure and not shared with unauthorized individuals. Ensure access to the local machine is restricted similarly.
+This bot is configured to respond only to commands from a specified Telegram user ID, set through the environment variable `TELEGRAM_ALLOWED_ID`. Ensure this ID and access to your Telegram account is kept secure and not shared with unauthorized individuals. Ensure access to all other related hardware is managed as
 
 ## Logging
 
