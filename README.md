@@ -47,7 +47,7 @@ python telegram_display_bot.py
 
 ## Security
 
-This bot is configured to respond only to commands from a specified Telegram user ID, set through the environment variable `TELEGRAM_ALLOWED_ID`. Ensure this ID and access to your Telegram account is kept secure and not shared with unauthorized individuals. Ensure access to all other related hardware is managed as
+This bot is configured to respond only to commands from a specified Telegram user ID, set through the environment variable `TELEGRAM_ALLOWED_ID`. Ensure this ID and access to your Telegram account is kept secure and not shared with unauthorized individuals. Ensure access to all other related hardware is managed appropriately.
 
 ## Logging
 
@@ -63,4 +63,4 @@ This project is open-source and available under MIT License.
 
 ## Disclaimer
 
-This bot is developed for educational and personal use. The author is not responsible for any misuse or damage caused by this software. Always ensure you have permission to run .bat files and modify display configurations on the target machine.
+This bot is developed for educational and personal use. The author is not responsible for any misuse or damage caused by this software.
