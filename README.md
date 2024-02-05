@@ -1,6 +1,6 @@
 # Telegram Bot Template
 
-This Python-based Telegram bot is a basic template for building more advanced Telegram Bot
+This Python-based Telegram bot is a basic template for building more advanced Telegram bots.
 
 ## Features
 
@@ -9,8 +9,6 @@ This Python-based Telegram bot is a basic template for building more advanced Te
 - Command Handling: Supports several commands for user interaction:
   - `/start` - Initiates interaction with the bot, restricted to an authorized user.
   - `/chatid` - Provides the user with their chat ID.
-  - `/runbat` - Lists available .bat files for display configuration and executes them upon user selection.
-- Secure Execution of .bat Files: Executes selected `.bat` files safely, handling successes and failures gracefully.
 
 ## Setup
 ### Prerequisites
@@ -39,8 +37,7 @@ TELEGRAM_ALLOWED_ID=your_telegram_user_id_here
 
 ### Usage
 
-1. Ensure your `.bat` files are in the same directory as the script. These files should be named in a way that describes their function, e.g., `TvOnly_4k.bat`, `Default_3x_1440p.bat`, `CenterOnly_1440p.bat`. Note: The script is configured to exclude `run_script.bat` from being listed or executed.
-2. Start the bot by running the script:
+1. Ensure your `.bat` files are in the same directory as the script. These files should be named in a way that describes their function, e.g., `TvOnly_4k.bat`,. Start the bot by running the script:
 
 ```
 python telegram_display_bot.py
