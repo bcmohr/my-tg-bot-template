@@ -37,3 +37,4 @@ if __name__ == "__main__":
     logging.info("Bot started")
     # Start bot loop
     bot.infinity_polling()
+    
