@@ -2,6 +2,8 @@
 
 This Python-based Telegram bot is a basic template for building more advanced Telegram bots.
 
+Initially created by using batter-bot as a template.
+
 ## Features
 
 - Logging: Comprehensive logging of bot activities, including command usage and execution outcomes, to a file named `bot_activity.log`.
